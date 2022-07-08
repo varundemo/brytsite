@@ -1,0 +1,539 @@
+body {
+  font-family: "Akshar", sans-serif;
+}
+section {
+  margin-bottom: 5rem;
+}
+
+.blog-main {
+  background-color: #0e3b65;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+}
+.blog-main h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.blog-main p {
+  font-size: 30px;
+}
+.search-bar input {
+  width: 81%;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  outline: none;
+}
+.search-bar i {
+  width: 18%;
+  background-color: #0e3b65;
+  margin-left: -5px;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+}
+.news-main {
+  padding-left: 3rem;
+}
+.more-details {
+  background-color: #de1a1b;
+  color: #fff;
+  border: none;
+  padding: 5px 17px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.visa-image {
+  position: relative;
+  border: 1px solid #f8f8f8;
+  padding-bottom: 1rem;
+}
+.Date-main {
+  background-color: #de1a1b;
+  width: 120px;
+  padding: 5px 16px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.recent-news-box h3 {
+  font-weight: 600;
+}
+.reply-box h5 {
+  font-size: 16px;
+}
+.visa-image h3 {
+  color: #303030;
+  font-weight: 700;
+  padding: 1rem 1.5rem 10px 1rem;
+  font-size: 20px;
+  line-height: 1.9rem;
+  margin: 0;
+}
+.visa-image p {
+  font-size: 22px;
+  padding: 0 0 1rem 1rem;
+  margin: 0;
+}
+.marketing-box .visa-image p {
+  font-size: 22px;
+  padding: 0 1rem 1rem 0;
+  margin: 0;
+}
+.categories h3 {
+  padding: 3rem 0 10px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.categories p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaeaea;
+  padding: 5px 0 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.categories p:nth-child(2) {
+  color: #de1a1b;
+}
+.stock-marketing {
+  align-items: center;
+  margin: 20px 20px 0 0;
+}
+.stock-marketing img {
+  margin-right: 20px;
+}
+.pagenation .page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.pagenation .page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.pagenation .page-item {
+  margin: 1rem 10px 0 0;
+}
+.pagenation .page-link:focus {
+  z-index: 3;
+  color: #fff;
+  background-color: #0e3b65;
+  outline: 0;
+  border: 2px solid #0e3b65;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%) !important;
+}
+.pagenation .page-link {
+  color: #000;
+  border: 2px solid #dee2e6;
+}
+.pagenation .page-link.active {
+  background: #0e3b65;
+  color: #fff;
+  border: 2px solid #0e3b65;
+}
+
+.recent-news-box:nth-child(2) h5 {
+  color: #18509b;
+}
+
+.stock-marketing-box {
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.post-comment-btn {
+  color: #fff;
+  background-color: #de1a1b;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px 2rem;
+  transition: 2s;
+}
+.post-comment-btn:hover{
+  background-color: #0e3b65;
+}
+
+/* Singal-blog */
+.blog-content {
+  margin-top: 2rem;
+}
+.marketing-box {
+  background-color: #f9f9f9;
+}
+.marketing-box .visa-image img {
+  margin-top: 10px;
+}
+.blog-date {
+  background-color: #fff;
+  max-width: 300px;
+  align-items: center;
+  margin-top: 10px;
+  height: 40px;
+}
+.blog-date p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.blog-date i {
+  margin: 0 10px;
+}
+.visa-image h2 {
+  font-size: 34px;
+  font-weight: 600;
+  padding: 0 0 1rem;
+}
+.marketing-box .blog-date p {
+  font-size: 17px;
+  padding: 0;
+}
+.marketing-box .visa-image h3 {
+  font-size: 25px;
+  font-weight: 400;
+  border-left: 5px solid #17509d;
+  padding: 0 2rem 0 1rem;
+  margin: 2rem;
+}
+.recent-news-box .stock-marketing:nth-child(2) {
+  color: #17519d;
+}
+.recent-news-box .stock-marketing h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.recent-news-box .stock-marketing h6 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.news-recent{
+  padding-top: 1rem;
+}
+.share {
+  text-align: right;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem 0;
+}
+.share i {
+  color: #d4d4d4;
+  margin: 0 10px;
+  transition: 1s;
+}
+.share i:hover{
+  color: #0e3b65;
+}
+
+.marketing-box .share i:nth-child(1) {
+  color: #17519d;
+}
+.comments h1 {
+  font-size: 36px;
+  font-weight: 600;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0 0 1rem;
+}
+.comments .stock-marketing {
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0 0 1rem;
+}
+.post-comment h2 {
+  font-size: 42px;
+  text-transform: capitalize;
+  padding-top: 1.5rem;
+  font-weight: 400;
+}
+.post-comment p {
+  color: #919191;
+  font-size: 18px;
+}
+.comment-box input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #eeeeee;
+  margin-bottom: 1rem;
+}
+.message-box textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #eeeeee;
+  margin: 1rem 0;
+}
+
+/* contact us page */
+.help-clients {
+  position: relative;
+}
+.getin-touch-form {
+  background-color: #de1a1b;
+  position: absolute;
+  top: 13.4rem;
+  right: 7rem;
+  height: 500px;
+  width: 360px;
+}
+.getin-touch-text {
+  width: 80%;
+  margin: 3rem auto;
+  color: #fff;
+}
+.get-in-touch-form input {
+  width: 48%;
+  padding: 10px;
+  background-color: #eff3f6;
+  border: none;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+  outline: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.get-in-touch-form textarea {
+  width: 97%;
+  padding: 10px;
+  background-color: #eff3f6;
+  border: none;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+  outline: none;
+}
+.contact-us {
+  background-color: #de1a1b;
+  text-align: center;
+}
+.contact-details {
+  background-color: #d80e0e;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+.contact-box-icon i {
+  font-size: 50px;
+}
+.contact-details p {
+  padding: 10px 2rem;
+  font-size: 22px;
+}
+.visa-main-box {
+  background-color: #eff3f6;
+  padding: 3rem;
+  border-radius: 10px;
+  background-image: url(../img/visa-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.more-details a {
+  color: #fff;
+  text-decoration: none;
+}
+.clients-box {
+  padding: 0 0 3rem;
+}
+.clients-box p {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+  font-weight: 400;
+}
+.clients-box h4 {
+  color: #dd191a;
+  font-size: 50px;
+  font-weight: 600;
+}
+.clients-box-main {
+  padding: 0 0 3rem;
+}
+.clients-box-main p {
+  font-size: 22px;
+  padding-left: 3rem;
+}
+.get-in-touch-form h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.get-in-touch-form p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #464646;
+}
+.submit-now {
+  background-color: #0e3b65;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+  border-radius: 7px;
+  transition: 2s;
+}
+.submit-now:hover{
+  background-color: #dd191a;
+  color: #fff;
+}
+.visa-button {
+  text-align: center;
+  margin-top: 3rem;
+}
+.visa-button button {
+  background-color: #de1a1b;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 13px 3rem;
+  border-radius: 7px;
+  transition: 2s;
+}
+.visa-button button:hover{
+  background-color: #0e3b65;
+}
+.about-us-visa h3 {
+  color: #021f49;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.color-text-box {
+  color: #de1a1b;
+}
+.about-us-visa p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.getin-touch-text h3 {
+  font-size: 32px;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
+.getin-touch-text h5 {
+  padding-left: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.getin-touch-text h1 {
+  padding: 1.2rem 2rem 12px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.getin-touch-text a {
+  color: #fff;
+  width: 100%;
+  padding-left: 2.5rem;
+  margin-right: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+.getin-touch-button {
+  border: none;
+  background: #fff;
+  padding: 1rem;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #dd191a;
+  margin: 3rem 2rem 2rem;
+  transition: 2s;
+}
+.getin-touch-button:hover{
+  background-color: #0e3b65;
+  color: #fff;
+}
+.contact-details h5 {
+  font-size: 27px;
+  font-weight: 600;
+  padding: 1rem 0 0;
+  margin: 0;
+}
+
+@media only screen and (max-width:1980px){
+  .getin-touch-form {
+    right: 24rem;
+}
+}
+
+@media only screen and (max-width:1440px){
+  .getin-touch-form {
+    right: 8rem;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  .getin-touch-form {
+    top: 12.2rem;
+    right: 5rem;
+}
+  .clients-box h4 {
+    font-size: 37px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+  .visa-image {
+    margin-bottom: 1rem;
+  }
+  .Date-main {
+    right: 6rem;
+  }
+  .getin-touch-form {
+    top: 18.8rem;
+    right: 12rem;
+}
+  .marketing-box {
+    margin-bottom: 1rem;
+  }
+  .news-main {
+    padding-left: 0rem;
+  }
+  .clients-box-main p {
+    padding-left: 0;
+}
+.contact-details {
+  margin: 1rem 0;
+}
+}
+@media only screen and (max-width: 768px) {
+  .Date-main {
+    right: 0;
+  }
+  .get-in-touch-form input {
+    width: 97%;
+  }
+  .getin-touch-form {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 420px;
+    margin: 0 auto;
+  }
+  .comments .stock-marketing-box {
+    padding: 1rem 0;
+}
+}
+
+@media only screen and (max-width: 425px) {
+  .getin-touch-form {
+    width: 300px;
+    height: 450px;
+  }
+  .getin-touch-text {
+    width: 100%;
+  }
+  .stock-marketing-box {
+    padding: 1rem 0;
+  }
+  .news-main {
+    padding: 2rem;
+}
+}
