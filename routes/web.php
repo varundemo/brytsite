@@ -5,6 +5,7 @@ use App\Http\Controllers\Web\BlogController;
 use App\Http\Controllers\web\ContactController;
 use App\Http\Controllers\Web\HomeController;
 use App\Http\Controllers\Admin\HomeController as AdminHome;
+use App\Http\Controllers\Web\ServicesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[HomeController::class, 'index']);
 
 Route::get('/blog',[BlogController::class,'index'])->name('blog');
+Route::get('/services/pte',[ServicesController::class,'pte'])->name('service.pte');
+Route::get('/service',[ServicesController::class,'index'])->name('service');
 
 Route::get('/home/header',[AdminHome::class,'header'])->name('home.header');
 Route::post('header-section-send',[AdminHome::class,'headersectionsend'])->name('header-section-send');

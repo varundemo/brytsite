@@ -19,7 +19,7 @@
           <li class="nav-item dropdown">
             <a
               class="nav-link active dropdown-toggle"
-              href="index.html"
+              href=""
               id="navbarDropdown"
               role="button"
               data-bs-toggle="dropdown"
@@ -28,11 +28,18 @@
               Our services
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="index.html">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="{{ url('/') }}">Home</a></li>
+              <li><a class="dropdown-item" href="{{ url('service') }}">Service</a></li>
+
               <li>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <li><a class="dropdown-item" href="Ilets.html">ILETS Coaching</a></li>
+              <li>
+                <a class="dropdown-item" href="{{ route('service.pte') }}">PTE coaching</a>
               </li>
+              <li>
+                <a class="dropdown-item" href="migration.html">Migration </a>
+              </li>
+
             </ul>
           </li>
           <li class="nav-item">

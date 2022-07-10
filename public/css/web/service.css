@@ -1,0 +1,179 @@
+body {
+  font-family: "Akshar", sans-serif;
+}
+
+.service-banner {
+  background-image: url(../../web/img/service/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: #062856;
+  margin: 0;
+  color: #fff;
+}
+.service-banner-text {
+  max-width: 290px;
+  padding: 9rem 0;
+}
+.service-banner-text h1 {
+  font-size: 53px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Akshar", sans-serif;
+}
+.bryte-color-text {
+  color: #dd191a;
+}
+.best-visa-consultent-text h1 {
+  color: #0c3c64;
+  text-transform: uppercase;
+  padding-top: 2.5rem;
+  font-weight: 700;
+}
+.best-visa-consultent-text h3 {
+  font-weight: 600;
+  font-size: 31px;
+}
+.career-counselling {
+  background-image: url(../../web/img/service/career-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.career-counselling-text {
+  padding: 1rem 0;
+}
+.career-counselling-text h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 33px;
+}
+.career-counselling-image img {
+  height: 400px;
+}
+.career-counselling-text p {
+  font-size: 14px;
+}
+.admission-procudure h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.admission-procudure {
+  background-image: linear-gradient(45deg, #0d3b66ce, #0d3b66ce),
+    url(../../web/img/service/application.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+.landing-service {
+  background-image: url(../../web/img/service/landing-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.landing-service-text {
+  padding: 2rem 0;
+}
+.landing-service-text h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 33px;
+}
+.landing-service-text ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.landing-service-text li {
+  padding: 5px 0;
+}
+.landing-service-text i {
+  margin-right: 1rem;
+}
+.admission-procudure p {
+  font-size: 14px;
+}
+
+/* Ilets Page */
+.know-more-ilets {
+  margin: 3rem 0;
+}
+.ilets-main-heading {
+  border-left: 5px solid #dd191a;
+  padding-left: 1rem;
+}
+.ilets-main-heading h3 {
+  color: #dd191a;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+  font-size: 18px;
+}
+.ilets-main-heading h1 {
+  color: #17519d;
+  font-size: 32px;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin: 0rem 0rem 1.8rem;
+}
+.know-more-ilets h4 {
+  color: #464646;
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+.ilets-demo-main {
+  padding: 2rem 0;
+}
+.ilets-demo h6 {
+  color: #dd191a;
+  font-weight: 300;
+  font-size: 24px;
+}
+.ilets-demo h3 {
+  color: #17519d;
+  font-size: 28px;
+}
+.free-demo {
+  background-color: #0e3b65;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.free-demo:hover {
+  background-color: #dd191a;
+  color: #fff;
+}
+
+/* PTE Coaching Satrt */
+.pte-about-text h4 {
+  color: #464646;
+}
+.pte-about-text p{
+  color: #464646;
+}
+
+/* migration */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #080808;
+  border-left: 2px solid  #dd191a;
+  background-color: transparent;
+  border-radius: 0;
+}
+.migration-main-tabs {
+  margin: 3rem 0;
+  padding: 2rem 0;
+  box-shadow: 0rem 0rem 1.2rem 0rem rgb(117 116 116 / 27%);
+  border-radius: .4rem;
+}
+.migration-main-tabs .more-about-ilets p {
+  margin: 0;
+  padding-right: 1rem;
+}

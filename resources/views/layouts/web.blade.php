@@ -19,6 +19,7 @@
     />
 
     <link href="{{ asset('css/web/style.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/web/service.css') }}" rel="stylesheet" />
 
     <link href="{{ asset('css/web/blog.css') }}" rel="stylesheet" />
   </head>
