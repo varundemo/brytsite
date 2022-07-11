@@ -27,9 +27,10 @@ Route::get('/',[HomeController::class, 'index']);
 
 Route::get('/blog',[BlogController::class,'index'])->name('blog');
 Route::get('/services/pte',[ServicesController::class,'pte'])->name('service.pte');
-Route::get('/service',[ServicesController::class,'index'])->name('service');
+Route::get('/service',[ServicesController::class,'service'])->name('service');
 
 Route::get('/home/header',[AdminHome::class,'header'])->name('home.header');
+Route::get('/home/choose',[AdminHome::class,'choose'])->name('home.choose');
 Route::post('header-section-send',[AdminHome::class,'headersectionsend'])->name('header-section-send');
 
 Route::get('/contact',[ContactController::class,'index']);

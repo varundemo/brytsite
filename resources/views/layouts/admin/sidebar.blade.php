@@ -27,7 +27,7 @@
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Home</a></li>
           <li class="{{ Request::routeIs('home.header') ? 'active' : ''}}"><a href="{{ route('home.header') }}" >Header</a></li>
-          <li><a href="#">JavaScript</a></li>
+          <li><a href="{{ route('home.choose') }}">Why Choose Us</a></li>
           <li><a href="#">PHP & MySQL</a></li>
         </ul>
       </li>

@@ -35,4 +35,10 @@ class HomeController extends Controller
             $home_head->save(); 
             return redirect()->back();
     }
+
+    public function choose(){
+        // dd('choose');
+        $page_title = "choose";
+        return view('admin.home.choose',compact('page_title'));
+    }
 }

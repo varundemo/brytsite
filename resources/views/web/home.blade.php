@@ -6,13 +6,15 @@
 <section class="banner">
   <div class="container">
     <div class="banner-text">
-      <h1>
+      {{-- <h1>
         immigration <br />
         consultants <br /><span class="color-text"
           >agency <br />
           worldwide</span
         >
-      </h1>
+      </h1> --}}
+      {!! $header->section_desc !!}
+
     </div>
   </div>
 </section>
@@ -125,6 +127,7 @@
     </div>
     <div class="col-lg-6">
       <div class="choose-us-text">
+        
         <h3>why choose us</h3>
         <h2>
           we build the
@@ -134,6 +137,7 @@
           one of the best international eduction destination throughout the
           world canada has much to boost of thanks
         </p>
+
         <div class="choose-text-body d-flex">
           <div class="choose-us-icon">
             <img

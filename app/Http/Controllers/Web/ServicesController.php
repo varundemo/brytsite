@@ -7,8 +7,10 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
+    
     public function service(){
-        view('web.service.main');
+        // dd("no data");
+        return view('web.services.index');
     }
     public function pte(){
         return view('web.services.pte');
