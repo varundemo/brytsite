@@ -10,15 +10,16 @@
 
 <div class="container" style="max-width: 700px;">
     <h3>{{ isset($page_section) ? 'header' : '' }} Section</h3>
-    <form action="" enctype="multipart/form-data" method="POST">
+    <form action="{{ route('choose-section-send') }}" enctype="multipart/form-data" method="POST">
       @csrf
       <label for="fname">Title</label>
-      <input type="text" id="title" name="title" placeholder="Title">
+      <input type="text" id="title" name="title" placeholder="Title" value="{{ $why_choose_us->title }}">
 
+      <img src="{{ asset('img') }}/{{$why_choose_us->section_img}}" alt="" width="200">
       <label for="image">Header Image</label>
-      <input type="file" name="header_img" id="header_img" class="form-control">
+      <input type="file" name="choose_img" id="header_img" class="form-control my-4">
   
-      <textarea name="editor" id="editor" cols="30" rows="5s0">a</textarea>
+      <textarea name="choose_desc" id="editor" cols="30" rows="50">{{ $why_choose_us->section_desc}}</textarea>
       {{-- <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> --}}
       <input class="mt-2" type="submit" value="Submit">
@@ -32,6 +33,7 @@
 <script src="{{ asset('css/admin/CKeditor/ckeditor.js') }}"></script>
 <script>
   CKEDITOR.replace('editor');
+  config.allowedContent = true;
 </script>
 
 

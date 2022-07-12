@@ -128,15 +128,11 @@
     <div class="col-lg-6">
       <div class="choose-us-text">
         
-        <h3>why choose us</h3>
-        <h2>
-          we build the
-          <span class="color-text">dream with passion</span> for you
-        </h2>
-        <p>
-          one of the best international eduction destination throughout the
-          world canada has much to boost of thanks
-        </p>
+        <h3>{{ $why_choose_us->title }}</h3>
+        
+
+       {!! $why_choose_us->section_desc !!}
+
 
         <div class="choose-text-body d-flex">
           <div class="choose-us-icon">

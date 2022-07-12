@@ -36,9 +36,27 @@ class HomeController extends Controller
             return redirect()->back();
     }
 
+    public function choosesectionsend(Request $request){
+        $home_choose = Home::where('section','why_choose_us')->first();
+        $home_choose->title = $request->title;
+        $home_choose->section_desc = $request->choose_desc;
+        if($request->hasfile("choose_img")){
+            $choose_img = $request->choose_img;
+            $imgName = time().".".$choose_img->getClientOriginalName();
+            $choose_img->move("img/",$imgName);
+            $upload = $imgName;
+            // print_r($upload);
+            $home_choose->section_img = $upload;
+          }
+        $home_choose->save(); 
+        return redirect()->back();
+    }
+
     public function choose(){
         // dd('choose');
         $page_title = "choose";
-        return view('admin.home.choose',compact('page_title'));
+        $why_choose_us = Home::where('section','why_choose_us')->first();
+
+        return view('admin.home.choose',compact('why_choose_us','page_title'));
     }
 }

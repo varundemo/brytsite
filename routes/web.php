@@ -33,6 +33,7 @@ Route::get('/service',[ServicesController::class,'service'])->name('service');
 Route::get('/home/header',[AdminHome::class,'header'])->name('home.header');
 Route::get('/home/choose',[AdminHome::class,'choose'])->name('home.choose');
 Route::post('header-section-send',[AdminHome::class,'headersectionsend'])->name('header-section-send');
+Route::post('choose-section-send',[AdminHome::class,'choosesectionsend'])->name('choose-section-send');
 
 Route::get('/contact',[ContactController::class,'index']);
 Route::get('/blog/blog-name',[BlogController::class,'singleblog']);

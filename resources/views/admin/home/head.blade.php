@@ -15,8 +15,9 @@
       <label for="fname">Title</label>
       <input type="text" id="title" name="title" placeholder="Title">
 
-      <label for="image">Header Image</label>
-      <input type="file" name="header_img" id="header_img" class="form-control">
+      <img src="{{ asset('img') }}/{{$home_header->section_img}}" alt="" width="200">
+      <label for="image" style="margin-top:2rem;">Header Image</label>
+      <input type="file" name="header_img" id="header_img" class="form-control my-4">
   
       <textarea name="editor" id="editor" cols="30" rows="5s0">{{ $home_header->section_desc }}</textarea>
       {{-- <label for="subject">Subject</label>
