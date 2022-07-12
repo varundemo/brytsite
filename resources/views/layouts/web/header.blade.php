@@ -37,7 +37,7 @@
                 <a class="dropdown-item" href="{{ route('service.pte') }}">PTE coaching</a>
               </li>
               <li>
-                <a class="dropdown-item" href="migration.html">Migration </a>
+                <a class="dropdown-item" href="{{ route('service.migration') }}">Migration </a>
               </li>
 
             </ul>
