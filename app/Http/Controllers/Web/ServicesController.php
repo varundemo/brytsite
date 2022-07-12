@@ -15,4 +15,8 @@ class ServicesController extends Controller
     public function pte(){
         return view('web.services.pte');
     }
+    public function migration(){
+        // dd("migrate here");
+        return view('web.services.migration');
+    }
 }

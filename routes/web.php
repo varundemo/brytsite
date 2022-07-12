@@ -27,6 +27,7 @@ Route::get('/',[HomeController::class, 'index']);
 
 Route::get('/blog',[BlogController::class,'index'])->name('blog');
 Route::get('/services/pte',[ServicesController::class,'pte'])->name('service.pte');
+Route::get('/services/migration',[ServicesController::class,'migration'])->name('service.migration');
 Route::get('/service',[ServicesController::class,'service'])->name('service');
 
 Route::get('/home/header',[AdminHome::class,'header'])->name('home.header');
